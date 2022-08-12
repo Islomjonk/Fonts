@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* vh = viewport = ko'rish balandligi */
+/* vw =viewport = ko'rish kengligi */
+.container{
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(250, 152, 168);
+}
+.box{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(15, 133, 252);
+}
+/* 1rem = 1em = 16px */
+/* "rem" va "em" ni farqi bor*/
+.text{
+    text-align: center;
+    font-size: 1.3em;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    line-height: 2;
+  /* text-transform: uppercase;
+    text-transform: lowercase; */
+    text-transform: capitalize;
+
+}
+.without_borderBox,
+.with_borderBox{
+    width: 200px;
+    height: 200px;
+    border: 5px solid red ;
+    padding: 10px;
+}
+.with_borderBox{
+    background-color: rgb(241, 104, 127);
+    box-sizing: border-box;
+}
+.without_borderBox{
+    background-color: dodgerblue;
+    box-sizing: content-box;
+}
+

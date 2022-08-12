@@ -1,0 +1,25 @@
+@font-face{
+    font-family: "yozuvli";
+    src: url("./static/DancingScript-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    margin: 1rem 0px;
+    color: red;
+    font-family: "yozuvli";
+}
+html body .main .desc{
+    font-size: 1.7rem;
+    text-align: center;
+    color: red;
+    font-family: "yozuvli";
+}
+body .main .desc{
+    color: blue;
+}

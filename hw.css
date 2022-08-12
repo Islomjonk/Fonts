@@ -1,0 +1,239 @@
+@font-face{
+    font-family: harf;
+    src: url("./IbarraRealNova-Bold.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    display:flex;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+.collection{
+    display: flex;
+    margin-left: 300px;
+    list-style: none;
+}
+.item1{
+    padding-left:70px;
+    font-size: 18px;
+    padding-top: 15px;
+    border-bottom: 3px solid rgb(175, 172, 172);
+}
+.item2{
+    padding-left:70px;
+    font-size: 18px;
+    padding-top: 15px;
+    border-bottom: 3px solid rgb(175, 172, 172);
+}
+.item3{
+    padding-left:70px;
+    font-size: 18px;
+    padding-top: 15px;
+    border-bottom: 3px solid rgb(175, 172, 172);
+}
+.item4{
+    padding-left:70px;
+    font-size: 18px;
+    padding-top: 15px;
+    border-bottom: 3px solid rgb(175, 172, 172);
+}
+.qoq{
+    width: 150px;
+    height: 50px;   
+    margin-left: 600px;
+}
+.qoq:hover{
+    border-bottom: 3px solid dodgerblue;
+    
+}
+.qoq span{
+    font-size: 16px;
+    padding-left: 40px;
+}
+.qoq span:hover{
+    color: dodgerblue;
+}
+.wow{
+    width: 150px;
+    height: 50px;   
+}
+.wow:hover{
+    border-bottom: 3px solid dodgerblue;
+    
+}
+.wow span{
+    font-size: 16px;
+    padding-left: 45px;
+}
+.wow span:hover{
+    color: dodgerblue;
+}
+.ror{
+    width: 150px;
+    height: 50px;   
+}
+.ror:hover{
+    border-bottom: 3px solid dodgerblue;
+    
+}
+.ror span{
+    font-size: 16px;
+    padding-left: 60px;
+}
+.ror span:hover{
+    color: dodgerblue;
+}
+.eoe{
+    width: 150px;
+    height: 50px;   
+}
+.eoe:hover{
+    border-bottom: 3px solid dodgerblue;
+    
+}
+.j{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.eoe span{
+    padding-left: 40px;
+    font-size: 16px;
+}
+.eoe span:hover{
+    color: dodgerblue;
+}
+.radius{
+    border-radius: 20px 0 0 20px;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+.input input{
+    width: 350px;
+    height: 50px;
+}
+.input{
+    display: flex;
+}
+.inp{
+    width: 400px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid black;
+    display: flex;
+}
+.inp p{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#ipt{
+    margin-top: 0px;
+    border: none;
+    width: 80px;
+}
+#iptn{
+    margin-top: 0;
+    border: none;
+    width: 60px;
+}
+.ranger{
+    width: 400px;
+    height: 50px;
+    border: 0 20px 20px 0;
+    border: 1px solid black;
+    display: flex;
+}
+.ranger input{
+    width: 200px;
+    margin-right: 50px;
+}
+.icon{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.icon2{
+    padding: 15px 20px;
+}
+#iptns{
+    margin-top: 20px;
+    width: 110px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+#iptna{
+    margin-top: 0;
+    width: 100px;
+    border-radius: 20px;
+}
+#iptnd{
+    margin-top: 0;
+    width: 130px;
+    border-radius: 20px;
+}
+.a{
+    font-size: 16px;
+}
+.wo{
+    background-color: #fff;
+    color:black;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 20px;margin-left: 100px;
+    margin-top: 30px;
+}
+.box h4{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.box h6{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.box h1{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.boxs{
+    display: flex ;
+}
+.woq{
+    margin-left: 20px;
+}
+.woq h1{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.woq h4{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.woq h6{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.wop{
+    margin-left: 20px;
+}
+.wop h4{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.wop h6{
+    padding-left: 10px;
+    padding-top: 10px;
+}
